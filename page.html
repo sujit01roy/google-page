@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome Users</title>
+<link rel="stylesheet" href="menu/menu.css" type="text/css">
+    <link rel="stylesheet" href="menu/mainbody.css" type="text/css">
+    
+	<style type="text/css">
+	  body{
+	   margin:0px;
+	}
+	</style>
+
+</head>
+
+<body>
+      <div id="centre_maker">
+	  
+	  <header id="top_header">
+	  
+	     <img src="ideas.jpg" height="60" width="100" />
+	     <h3 class="top">Welcome Users</h3>
+	  
+	  
+	  </header	  
+	  
+<div id="menuHolder">
+<nav>
+  <ul>
+  
+    <li><a href="#">Home</a></li> 
+    <li><a href="#">About</a></li>
+	<li><a href="#">Contact</a></li>
+	<li><a href="#">Careers</a>
+	
+	 <ul>
+	 
+	    <li><a href="#">Link1</a></li>
+		<li><a href="#">Link2</a></li>
+		<li><a href="#">Link3</a></li>
+	 
+	 
+	 
+	 </ul>
+	</li>
+ 
+  </ul>
+
+</nav>
+</div>
+<section id="main_section">
+     <form action="Controller" method="post">
+	 
+	    Name:<input type="text" name="username" id="username" placeholder="full name" />
+	    <!--      <input type="text" name="username" id="username" placeholder="last name" />-->
+	    <br /><br />
+	    Age:<input type="number" name="Age"  id="num" /><br /><br />
+        Gender:<input type="radio" value="Male"name="Gender" id="male">Male</input>
+		       	
+               <input type="radio" value="Female"name="Gender" id="Female">Female</input>
+		       <br /><br />
+               
+        Degree:<select name="Degree">
+			   
+			            <option value="BE/B TECH">BE/B TECH</option>
+						<option value="MBA">MBA</option>
+						<option value="BCA">BCA</option>
+						<option value="MCA">MCA</option> 
+			 </select><br /><br />
+             
+             <label for="number" >Mob No</label>   
+		     <input type="number" name="mobNo" value="number" id="number" /><br /><br />
+		     
+                
+			 
+               
+
+            <!--<label for="username">Username</label>
+			 <input type="text" name="username" id="username"/>
+               
+			 <label for="password">Password</label>
+			 <input type="password" name="password" id="password"/><br />-->
+			   
+			 <input type="submit" id="submit" value="submit"/>
+			 <p><input type="hidden" name="action" value="create"></p>
+			   
+			 
+			   
+	 </form>
+
+</section>
+          
+
+        
+			 
+			 
+			 <footer id="page_footer">
+			 
+			    &copy;copyright 2016
+			 
+			 
+			 
+			 </footer>
+   </div>
+
+</head>
+<body>
+
+</body>
+</html>
